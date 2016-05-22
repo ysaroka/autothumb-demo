@@ -2,6 +2,7 @@
     "name": "ysaroka/autothumb-demo",
     "description": "Demo project for AutoThumb, PHP library to automatically create thumbnails",
     "keywords": ["php", "demo", "autothumb", "auto", "thumbnails", "thumb", "image", "resize", "cache"],
+    "license": "ISC",
     "authors": [
         {
             "name": "Yauhen Saroka",
