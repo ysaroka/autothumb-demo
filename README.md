@@ -1,4 +1,4 @@
-Demo project for AutoThumb, PHP library to automatically create thumbnails.
+Demo project for [AutoThumb](https://github.com/ysaroka/autothumb), PHP library to automatically create thumbnails.
 
 ## Requirements
 **PHP >= 5.4** , and one of the following image extensions for PHP: **Imagick** or **GD**.
