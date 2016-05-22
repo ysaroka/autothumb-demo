@@ -6,6 +6,6 @@ Demo project for AutoThumb, PHP library to automatically create thumbnails.
 Web-server **Apache** with module **mod_rewrite** enabled.
 
 ## Installation
-Install the demo project using the <a href="https://getcomposer.org/" target="_blank">Composer</a> package manager in the root directory of the web server (in the demo used web server Apache):
+Install demo project using the <a href="https://getcomposer.org/" target="_blank">Composer</a> package manager in document root directory of the web server (in demo used web server Apache):
 
     $ composer create-project ysaroka/autothumb-demo ./
