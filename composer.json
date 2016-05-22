@@ -1,15 +1,11 @@
 {
-    "description": "AutoThumb demo project",
+    "name": "ysaroka/autothumb-demo",
+    "description": "Demo project for AutoThumb, PHP library to automatically create thumbnails",
+    "keywords": ["php", "demo", "autothumb", "auto", "thumbnails", "thumb", "image", "resize", "cache"],
     "authors": [
         {
             "name": "Yauhen Saroka",
             "email": "johnkind49@gmail.com"
-        }
-    ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/ysaroka/autothumb"
         }
     ],
     "require": {
