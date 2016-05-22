@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a3e8ea28377a35c877a586243590cef5",
-    "content-hash": "f2411fb4db4a9b0b17a22a2045e7fd33",
+    "hash": "0b6aaac58854dcebfc596fa62a4b6d26",
+    "content-hash": "c26b72ea3fc1ccfcef006785cd18a1ef",
     "packages": [
         {
             "name": "imanee/imanee",
@@ -69,16 +69,16 @@
         },
         {
             "name": "ysaroka/autothumb",
-            "version": "v0.1.0",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ysaroka/autothumb.git",
-                "reference": "6400747c43e51507238e26ec35f0ddc32f26fdad"
+                "reference": "2b444c0111e40bddf7c1bd57b3b411d5071002b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ysaroka/autothumb/zipball/6400747c43e51507238e26ec35f0ddc32f26fdad",
-                "reference": "6400747c43e51507238e26ec35f0ddc32f26fdad",
+                "url": "https://api.github.com/repos/ysaroka/autothumb/zipball/2b444c0111e40bddf7c1bd57b3b411d5071002b2",
+                "reference": "2b444c0111e40bddf7c1bd57b3b411d5071002b2",
                 "shasum": ""
             },
             "require": {
@@ -91,18 +91,27 @@
                     "ysaroka\\autothumb\\": "src"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "ISC"
+            ],
             "authors": [
                 {
                     "name": "Yauhen Saroka",
                     "email": "johnkind49@gmail.com"
                 }
             ],
-            "description": "PHP library to automatically create thumbnails",
-            "support": {
-                "source": "https://github.com/ysaroka/autothumb/tree/v0.1.0",
-                "issues": "https://github.com/ysaroka/autothumb/issues"
-            },
-            "time": "2016-05-22 12:05:34"
+            "description": "AutoThumb, PHP library to automatically create thumbnails",
+            "keywords": [
+                "Thumbnails",
+                "auto",
+                "cache",
+                "image",
+                "php",
+                "resize",
+                "thumb"
+            ],
+            "time": "2016-05-22 15:12:29"
         }
     ],
     "packages-dev": [],
