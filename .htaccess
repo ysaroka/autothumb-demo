@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteBase /
+
+# If thumbnail file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Otherwise forward it to autothumb.process.php and create thumbnail
+RewriteRule (.*)-autothumb-([\w\d]+)\.([\w\d]+)$ autothumb.process.php?image=$1.$3&type=$2

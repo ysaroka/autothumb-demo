@@ -1,0 +1,18 @@
+{
+    "description": "AutoThumb demo project",
+    "authors": [
+        {
+            "name": "Yauhen Saroka",
+            "email": "johnkind49@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ysaroka/autothumb"
+        }
+    ],
+    "require": {
+        "ysaroka/autothumb": "^0.1.0"
+    }
+}

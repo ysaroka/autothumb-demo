@@ -1,0 +1,116 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "a3e8ea28377a35c877a586243590cef5",
+    "content-hash": "f2411fb4db4a9b0b17a22a2045e7fd33",
+    "packages": [
+        {
+            "name": "imanee/imanee",
+            "version": "1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/imanee/imanee.git",
+                "reference": "e3e3cf92c694f84fd8cb9cdeee6aa4a71655781d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/imanee/imanee/zipball/e3e3cf92c694f84fd8cb9cdeee6aa4a71655781d",
+                "reference": "e3e3cf92c694f84fd8cb9cdeee6aa4a71655781d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "ext-gd": "*",
+                "ext-imagick": "*",
+                "mockery/mockery": "^0.9.4",
+                "phpunit/phpunit": "3.7.*",
+                "satooshi/php-coveralls": "^0.6.1"
+            },
+            "suggest": {
+                "ext-gd": "To allow Imanee\\ImageResource\\GDResource usage.",
+                "ext-imagick": "To allow Imanee\\ImageResource\\ImagickResource usage."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Imanee\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Erika Heidi",
+                    "email": "erika@erikaheidi.com"
+                }
+            ],
+            "description": "PHP Image Manipulation Library",
+            "homepage": "http://imanee.io",
+            "keywords": [
+                "ImageMagick",
+                "gd",
+                "image",
+                "imagick",
+                "php"
+            ],
+            "time": "2015-09-03 13:02:21"
+        },
+        {
+            "name": "ysaroka/autothumb",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ysaroka/autothumb.git",
+                "reference": "6400747c43e51507238e26ec35f0ddc32f26fdad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ysaroka/autothumb/zipball/6400747c43e51507238e26ec35f0ddc32f26fdad",
+                "reference": "6400747c43e51507238e26ec35f0ddc32f26fdad",
+                "shasum": ""
+            },
+            "require": {
+                "imanee/imanee": "^1.2",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ysaroka\\autothumb\\": "src"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Yauhen Saroka",
+                    "email": "johnkind49@gmail.com"
+                }
+            ],
+            "description": "PHP library to automatically create thumbnails",
+            "support": {
+                "source": "https://github.com/ysaroka/autothumb/tree/v0.1.0",
+                "issues": "https://github.com/ysaroka/autothumb/issues"
+            },
+            "time": "2016-05-22 12:05:34"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
