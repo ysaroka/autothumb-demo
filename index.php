@@ -1,7 +1,7 @@
 <?php
 /**
  * Created: 2016-05-17
- * @author Yauhen Saroka <johnkind49@gmail.com>
+ * @author Yauhen Saroka <yauhen.saroka@gmail.com>
  */
 
 require_once(dirname(__FILE__) . '/vendor/autoload.php');
